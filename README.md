@@ -47,28 +47,28 @@ How to use:
 
     =============== Welcome to QueryTest ===============
     About to open bucket...
-    =============== Opened bucket travel-sample. ===================================================
-    =============== About to get list of namespaces =================================================
+    =============== Opened bucket travel-sample. ===============
+    =============== About to get list of namespaces ===============
     The elapsed time of that query was:   7.98793ms
     The execution time of that query was: 7.869658ms
     Retrieved a list of namespaces and found that there are 1 namespaces.
      0 :    default
-    =============== About to get list of datastores =================================================
+    =============== About to get list of datastores ===============
     The elapsed time of that query was:   1.439731ms
     The execution time of that query was: 1.281078ms
     Retrieved a list of datastores and found that there are 1 datastores.
      0 : http://127.0.0.1:8091
-    =============== About to get list of airlines ==================================================
+    =============== About to get list of airlines ===============
     The elapsed time of that query was:   2.228318389s
     The execution time of that query was: 2.225013034s
     Retrieved a list of airlines and found that there are 187 airlines.
-    =============== About to get list of indexes ===================================================
+    =============== About to get list of indexes ===============
     The elapsed time of that query was:   42.940193ms
     The execution time of that query was: 42.857211ms
     Name                  ID                   State           Keyspace        Using     
     --------------------  -------------------- --------------- --------------- ----------
                 #primary             #primary          online   travel-sample       view
-    =============== About to get cardinality of the 'type' field ===========================================
+    =============== About to get cardinality of the 'type' field ===============
     The elapsed time of that query was:   2.386003718s
     The execution time of that query was: 2.382465373s
     Key                        Value     
