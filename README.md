@@ -45,7 +45,7 @@ How to use:
 4.  Put your cluster's host name or ip address into QueryTest.java
 5.  Run the program
 
-    ======================================================= Welcome to QueryTest   =======================================================
+    =============== Welcome to QueryTest ===============
     About to open bucket...
     =================================================== Opened bucket travel-sample. ===================================================
     ================================================= About to get list of namespaces =================================================
