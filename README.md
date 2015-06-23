@@ -19,8 +19,16 @@ Related links:
 * [Working with N1QL from Java](http://docs.couchbase.com/developer/java-2.1/querying-n1ql.html)
 
 How to use:
-1.  Create a Couchbase 4.0 cluster, one node is fine.  Be sure the cluster has the services Data, Index, and Query
+
+1.  Create a Couchbase 4.0 cluster, one node is fine.  Be sure the cluster has the services Data, Index, and Query.
+
+
+
 2.  Load the travel-sample bucket
+
+
+
+
 3.  Create the primary index on the travel-sample bucket with cbq
 
     $ cd /opt/couchbase/bin
