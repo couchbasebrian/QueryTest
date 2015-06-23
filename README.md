@@ -22,20 +22,15 @@ How to use:
 
 1.  Create a Couchbase 4.0 cluster, one node is fine.  Be sure the cluster has the services Data, Index, and Query.
 
-
-
 2.  Load the travel-sample bucket
-
-
-
 
 3.  Create the primary index on the travel-sample bucket with cbq
 
-    $ cd /opt/couchbase/bin
-    $ ./cbq
-    Couchbase query shell connected to http://localhost:8093/ . Type Ctrl-D to exit.
-    cbq> create primary index on `travel-sample`;
-    {
+      $ cd /opt/couchbase/bin
+      $ ./cbq
+      Couchbase query shell connected to http://localhost:8093/ . Type Ctrl-D to exit.
+      cbq> create primary index on `travel-sample`;
+      {
         "requestID": "de20a07f-9068-429b-b1de-18338302691b",
         "signature": null,
         "results": [
@@ -47,8 +42,8 @@ How to use:
             "resultCount": 0,
             "resultSize": 0
         }
-    }
-    cbq>
+      }
+      cbq>
 
 4.  Put your cluster's host name or ip address into QueryTest.java
 5.  Run the program
