@@ -55,12 +55,12 @@ How to use:
         The elapsed time of that query was:   7.98793ms
         The execution time of that query was: 7.869658ms
         Retrieved a list of namespaces and found that there are 1 namespaces.
-       0 :    default
+         0 :    default
         =============== About to get list of datastores ===============
         The elapsed time of that query was:   1.439731ms
         The execution time of that query was: 1.281078ms
         Retrieved a list of datastores and found that there are 1 datastores.
-       0 : http://127.0.0.1:8091
+         0 : http://127.0.0.1:8091
         =============== About to get list of airlines ===============
         The elapsed time of that query was:   2.228318389s
         The execution time of that query was: 2.225013034s
